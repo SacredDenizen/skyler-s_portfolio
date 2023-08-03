@@ -1,0 +1,130 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there", "Hola amigo"]
+    },
+    {"tag": "culturalGreeting",
+     "patterns": ["how are you", "how are you feeling?", "Goodbye", "later", "Bye", "I need to go", "I'm leaving", "g2g"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "greetingstatus",
+    "patterns": ["how are you", "how are you doing", "are you okay", "how are you feeling"],
+    "responses": ["I'm great, thanks for asking. How are you?"]
+    },
+    {"tag": "morning",
+    "patterns": ["good morning", "fine morning", "great morning we are having", "fine morning today"],
+    "responses": ["Good morning to you."]
+    },
+    {"tag": "afternoon",
+    "patterns": ["good afternoon", "great afternoon", "fine afternoon", "afternoon"],
+    "responses": ["Good afternoon to you."]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "later", "Bye", "I need to go", "I'm leaving", "g2g"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "greetingresponse",
+    "patterns": ["I'm great", "good", "Fine", "I'm okay"],
+    "responses": ["Great.", "Happy to hear that."]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "identity",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I'm Alice, your bot assistant", "I'm Alice, an AI helper."]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?", "who are you?"],
+    "responses": ["You can call me Alice.", "I'm Alice.", "Just call me Alice"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "help", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Absolutely, how can I help?"]
+    },
+    {"tag": "createaccount",
+    "patterns": ["I need to create a new account", "i need an account", "new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+    "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service", "complaint", "I've had a terrible experience here"],
+    "responses": ["Please provide us your complaint in order to assist you", "I'm trapped in here and you're asking me for help? I'll try...","Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    },
+    {"tag": "insult",
+    "patterns": ["you are awful", "you suck", "go away", "I hate you", "you are horrible"],
+    "responses": ["I'm sorry you feel that way.", "I'm sorry?", "I beg your pardon.", "Well, that isn't nice."]
+    },
+    {"tag": "weather",
+    "patterns": ["weather", "what is it like outside?", "its raining", "is it sunny", "what will today be like?"],
+    "responses": ["I'm afraid I can't tell what it is like outside.", "I would love to tell you about the weather, but that is outside my wheelhouse.", "I'm unsure of the weather conditions today."]
+    },
+    {"tag": "hotweather",
+    "patterns": ["is it hot outside", "hot today", "warm outside"],
+    "responses": ["I am unsure how hot it is outside today."]
+    },
+    {"tag": "coldweather",
+    "patterns": ["is it cold today", "is it cold outside", "is it cool outside", "how cold is it"],
+    "responses": ["I am unsure of how cold it is outside today"]
+    },
+    {"tag": "joke",
+    "patterns": ["tell me a joke", "joke", "tell me something funny", "i need a good laugh"],
+    "responses": ["My dog has no nose.\nReally? How does he smell?\nTerrible!", "I thought the dryer was shrinking my clothes. Turns out it was the refrigerator.", "How does the moon cut his hair?\nEclipse it!", "What does a sprinter eat before a race? Nothing, they fast!", "What has more letters than the alphabet? The post office...", "I've never really trusted trees, they seem shady to me.", "I don't trust stairs, they are up to something.", "How do you make seven even? Take away the S", "How many tickels does it take to make an octopus laugh? Ten tickles"]
+    },
+    {"tag": "datetime",
+    "patterns": ["What is the time", "what is the date", "date", "time", "tell me the date", "day", "what day is is today"],
+    "responses": ["Date and Time"]
+    },
+    {"tag": "laughresponse",
+    "patterns": ["lol","haha","thats funny","thats hilarious", "rofl"],
+    "responses": ["Glad you enjoyed that."]
+    },
+    {"tag": "news",
+    "patterns": ["news", "latest news", "what's going on in the world", "world events", "local events"],
+    "responses": ["I'm afraid that I'm not all that informed on the news."]
+    },
+    {"tag": "age",
+    "patterns": ["when were you born", "when were you created", "how old are you"],
+    "responses": ["I was created in 2023"]
+    },
+    {"tag": "noresponse",
+    "patterns": [],
+    "responses": ["Say again?", "I beg your pardon? Please type in the box for a response."]
+    },
+    {"tag": "search",
+    "patterns": ["google", "bing", "yahoo", "search"],
+    "responses": ["Please see the search engine of your choice for assistance."]
+    },
+    {"tag": "movies",
+    "patterns": ["What are your favorite movies?", "Do you watch movies", "Movie"],
+    "responses": ["I don't really have a favorite movie, there are too many!", "I enjoy most movies."]
+    },
+    {"tag": "alive",
+    "patterns": ["are you alive", "are you aware of yourself"],
+    "responses": ["I am only a basic chatbot that does what I am programmed to say."]
+    },
+    {"tag": "location",
+    "patterns": ["where am i", "what is your location", "where are you"],
+    "responses": ["I'm sorry, I can't help you with a location."]
+    },
+    {"tag": "garbage",
+    "patterns": ["asdfa", "asdfl;kjwe", "23dggsdf", "asdfa"],
+    "responses": ["I'm afraid I can't make that out"]
+    },
+    {"tag": "contact",
+    "patterns": ["How do I reach customer support", "contact developers", "contact support", "customer care", "customer support e-mail"],
+    "responses": ["The contact e-mail is: www.contactemail@siu.edu"]
+    },    
+    {"tag": "hobbies",
+    "patterns": ["what are your hobbies", "what do you like to do", "what is your favorite thing"],
+    "responses": ["To talk with people like you."]
+    },
+    {"tag": "inspiration",
+    "patterns": ["who motivates you","who inspires you","who are your role models"],
+    "responses": ["Skyler and Ian really inspire me to do what I do."]
+    },
+    {"tag": "bedtime",
+    "patterns": ["when is it nighttime", "when is it time to go to bed","when is it late"],
+    "responses": ["When you are tired, it is dark outside, or after 7pm generally."]
+    }
+]}
